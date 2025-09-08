@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenTree Technologies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #76767f;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Heebo', sans-serif;
+            color: #26262c;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="text-base font-normal leading-relaxed">
+
+    <header class="bg-cover bg-center bg-no-repeat" style="background-image: url('./img/pexels-canva-studio-3153198.png');">
+        <div class="bg-black bg-opacity-80">
+            <div class="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+                <nav id="navbar" class="w-full transition-all duration-300">
+                    <div class="container mx-auto flex items-center justify-between py-4">
+                        <a href="#" class="flex items-center space-x-2">
+                            <img src="./img/logo2.png" alt="GreenTree Technologies Logo" class="h-8 w-auto sm:h-10">
+                            <span class="text-white text-2xl font-medium">GreenTree Technologies</span>
+                        </a>
+                        
+                        <div class="hidden lg:flex items-center space-x-6">
+                            <a href="#" class="text-white hover:text-lime-700 font-medium transition-colors">Home</a>
+                            <a href="#about" class="text-white hover:text-lime-700 font-medium transition-colors">About</a>
+                            <a href="#services" class="text-white hover:text-lime-700 font-medium transition-colors">Services</a>
+                            <a href="contact.html" class="text-white hover:text-lime-700 font-medium transition-colors">Contact</a>
+                            <a href="clients.html" class="text-white hover:text-lime-700 font-medium transition-colors">Clients</a>
+                            
+                        </div>
+
+                        <div class="lg:hidden">
+                            <button id="menu-btn" class="text-white focus:outline-none">
+                                <i class="fas fa-bars text-2xl"></i>
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+
+                <div id="mobile-menu" class="hidden lg:hidden">
+                    <a href="#" class="block text-white text-center py-2 hover:bg-gray-700">Home</a>
+                    <a href="#about" class="block text-white text-center py-2 hover:bg-gray-700">About</a>
+                    <a href="#services" class="block text-white text-center py-2 hover:bg-gray-700">Services</a>
+                    <a href="contact.html" class="block text-white text-center py-2 hover:bg-gray-700">Contact</a>
+                    <a href="clients.html" class="block text-white text-center py-2 hover:bg-gray-700">Clients</a>
+
+                </div>
+
+                <div class="pt-16 md:pt-24 pb-20 md:pb-32 flex">
+                    <div class="w-full lg:w-3/5 text-left">
+                        <h1 class="text-white text-4xl sm:text-5xl md:text-6xl font-medium leading-tight mb-8">IT and Business Consulting Services For Your&nbsp; Business</h1>
+                        <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                            <a href="contact.html" class="bg-lime-700 text-white py-3 px-6 text-base font-medium rounded hover:bg-white hover:text-gray-800 transition-all duration-300">Contact Us</a>
+                            <a href="#about" class="text-white text-base font-medium flex items-center hover:text-lime-700 transition-all duration-300">
+                                Learn More <i class="fas fa-long-arrow-alt-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-12 md:py-20">
+            <div class="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-wrap lg:flex-nowrap items-center">
+                <div class="w-full lg:w-1/2 lg:pr-12">
+                    <h2 class="text-3xl md:text-4xl font-medium mb-6">20+ Years in IT and Business Consulting have taught me this</h2>
+                    <ul class="space-y-4 mb-8 text-base sm:text-lg">
+                        <li class="flex items-start"><i class="fas fa-check text-lime-700 mt-1 mr-3"></i><span>Work SMARTER, not HARDER</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-lime-700 mt-1 mr-3"></i><span>10% of a successful business is worth more than 100% of a failing one</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-lime-700 mt-1 mr-3"></i><span>If you fail to plan, you plan to fail.</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-lime-700 mt-1 mr-3"></i><span>Team work has far more benefits than risks.</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-lime-700 mt-1 mr-3"></i><span>Why bump your head yourself when you can learn from others who have already done so?</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-lime-700 mt-1 mr-3"></i><span>Keep your balance, don't spend your health to gain your wealth, only to spend your wealth to regain your health</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-lime-700 mt-1 mr-3"></i><span>Don't work for money, make money work for you.</span></li>
+                    </ul>
+                    <a href="#services" class="bg-lime-700 text-white text-lg font-medium py-4 px-8 rounded hover:bg-gray-800 transition-colors">Our Services</a>
+                </div>
+                <div class="w-full lg:w-1/2 mt-8 lg:mt-0 lg:pl-12">
+                    <img src="https://greentreetech.co.za/sitepad-data/uploads/2023/04/pexels-mikael-blomkvist-6476260-1.png" alt="Business Meeting" class="w-full h-auto rounded-lg">
+                </div>
+            </div>
+        </section>
+
+        <section class="min-h-[300px] md:min-h-[500px] bg-cover bg-center" style="background-image: url('https://greentreetech.co.za/sitepad-data/uploads/2023/04/pexels-fauxels-3183190-3.jpg');"></section>
+
+        <section id="about" class="py-12 md:py-20">
+            <div class="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-wrap items-center justify-center lg:justify-between">
+                <div class="w-full sm:w-1/2 lg:w-1/5 mb-8 lg:mb-0 flex justify-center">
+                    <img src="https://greentreetech.co.za/sitepad-data/uploads/2023/04/logo1.png" alt="GreenTree Logo" class="w-40 h-auto rounded-lg">
+                </div>
+                <div class="w-full lg:w-3/5 text-center lg:text-left lg:px-8">
+                    <h2 class="text-3xl md:text-4xl font-medium mb-4">About GreenTree Technologies</h2>
+                    <p class="mb-4">Kenny Steyn established GreenTree Technologies in 2007 due to the need for IT solutions to business problems, however it did not take long to establish that many businesses were looking for IT solutions to address a business problem. Kenny began to address business problems first, thus eliminating vast amounts of unnecessary expenses on a solution that would not really address the issue at hand. This then allowed for additional budget to be used for IT to improve business thus making a significant impact on the bottom line.</p>
+                    <p>Kenny is an ordinary kind of guy with a very extraordinary way of thinking and analyzing problems. After a coffee with him, you will come away excited, energized, enthusiastic and encouraged. He has the ability to make complex situations clearer and impossible situations, POSSIBLE.</p>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/5 mt-8 lg:mt-0 flex justify-center">
+                    <img src="https://greentreetech.co.za/sitepad-data/uploads/2023/07/3.jpg" alt="Kenny Steyn" class="w-48 h-auto">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="bg-gray-50 py-12 md:py-20">
+            <div class="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+                <h2 class="text-center text-3xl md:text-4xl font-medium mb-12">What we offer</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <i class="fas fa-chart-line text-lime-700 text-4xl mb-4"></i>
+                        <h5 class="text-2xl font-medium mb-2">Business Development</h5>
+                        <p class="text-sm leading-relaxed">As a business owner, you know that growth and success don't happen by chance... Contact us today to learn more about our Business Development Services and how we can help take your business to new heights.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <i class="fas fa-shield-virus text-lime-700 text-4xl mb-4"></i>
+                        <h5 class="text-2xl font-medium mb-2">Cybersecurity</h5>
+                        <p class="text-sm leading-relaxed">With our Cybersecurity Services, you can rest assured that your business is protected from cyber threats... Don't leave your business vulnerable to cyber attacks. Contact us today.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <i class="fas fa-project-diagram text-lime-700 text-4xl mb-4"></i>
+                        <h5 class="text-2xl font-medium mb-2">Project Management</h5>
+                        <p class="text-sm leading-relaxed">Effective project management is key to achieving success in any organization... Contact us today to learn more about our Project Management Services and how we can help drive success.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <i class="fas fa-search text-lime-700 text-4xl mb-4"></i>
+                        <h5 class="text-2xl font-medium mb-2">Business Analysis</h5>
+                        <p class="text-sm leading-relaxed">In today's fast-paced business environment, it's more important than ever to have accurate and timely information... Contact us today to learn more about our Business Analysis Services.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <i class="fas fa-clipboard-list text-lime-700 text-4xl mb-4"></i>
+                        <h5 class="text-2xl font-medium mb-2">Business Process Analysis</h5>
+                        <p class="text-sm leading-relaxed">As your business grows, your processes need to evolve and adapt to keep up with changing demands... Contact us today to learn more about our Business Process Analysis Services.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <i class="fas fa-comment-medical text-lime-700 text-4xl mb-4"></i>
+                        <h5 class="text-2xl font-medium mb-2">Business Rescue</h5>
+                        <p class="text-sm leading-relaxed">Running a business is never easy, and sometimes things don't go according to plan... Contact us today to learn more about our Business Rescue Services and how we can help you get back on track.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 md:py-20 bg-gradient-to-r from-black via-green-900 to-lime-700">
+            <div class="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-wrap items-center justify-between text-center md:text-left">
+                <div class="w-full md:w-2/3 mb-6 md:mb-0">
+                    <h2 class="text-white text-3xl md:text-4xl font-medium">IT and Business Consulting Services For Your Business Today</h2>
+                </div>
+                <div class="w-full md:w-auto">
+                    <a href="#" class="bg-white text-gray-800 text-lg font-medium py-3 px-6 rounded hover:bg-gray-200 transition-colors">Book a Meeting</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="clients" class="py-12 md:py-20">
+            <div class="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+                <h2 class="text-center text-3xl md:text-4xl font-medium mb-4">Client Testimonials</h2>
+                <p class="text-center mb-10">My Recommendations on LinkedIn, click on LinkedIn Icon to see more...</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+                    <div class="text-center p-4">
+                        <p class="italic mb-6">"At this time of writing, I have known and had the pleasure of working with Kenny for just over a year... I have only respect, admiration and gratitude for his respectful attitude towards his colleagues as well as his leadership abilities..."</p>
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80" alt="Ryan Mettler" class="w-24 h-24 rounded-full mx-auto mb-4">
+                        <span class="font-heebo font-medium text-sm tracking-widest uppercase">Ryan Mettler</span>
+                    </div>
+                    <div class="text-center p-4">
+                        <p class="italic mb-6">"Kenny is a self-motivated person with high ethical and moral standards. He is highly organized and works well within teams and has the ability to motivate and manage the teams he works in. It’s been a pleasure to work with Kenny."</p>
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80" alt="Andre May" class="w-24 h-24 rounded-full mx-auto mb-4">
+                        <span class="font-heebo font-medium text-sm tracking-widest uppercase">Andre May</span>
+                    </div>
+                </div>
+
+                <div class="carousel rounded-box">
+
+                  <div class="relative">
+            <!-- Navigation Arrows -->
+            <button id="prev" class="nav-button absolute left-0 top-1/2 -translate-y-1/2 -ml-4 md:-ml-8 z-10 w-12 h-12 rounded-full bg-white shadow-md flex items-center justify-center text-gray-700 hover:text-white">
+                <i class="fas fa-chevron-left text-xl"></i>
+            </button>
+            <button id="next" class="nav-button absolute right-0 top-1/2 -translate-y-1/2 -mr-4 md:-mr-8 z-10 w-12 h-12 rounded-full bg-white shadow-md flex items-center justify-center text-gray-700 hover:text-white">
+                <i class="fas fa-chevron-right text-xl"></i>
+            </button>
+
+            <!-- Carousel Container -->
+            <div id="carousel" class="overflow-hidden relative">
+                <div id="testimonial-track" class="flex transition-transform duration-500 ease-in-out">
+                    
+                    <div class="testimonial-card flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-4 animate-fade">
+                        <div class="bg-white p-8 rounded-xl shadow-lg h-full border border-gray-100">
+                            
+                            <div class="flex items-center">
+                                <img src="./img/banking-association-logo.png" 
+                                     alt="David Wilson" 
+                                     class=" object-cover mr-4 border-2 border-indigo-100">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-4 animate-fade">
+                        <div class="bg-white p-8 rounded-xl shadow-lg h-full border border-gray-100">
+                            
+                            <div class="flex items-center">
+                                <img src="./img/engen.png" 
+                                     alt="David Wilson" 
+                                     class=" object-cover mr-4 border-2 border-indigo-100">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-4 animate-fade">
+                        <div class="bg-white p-8 rounded-xl shadow-lg h-full border border-gray-100">
+                            
+                            <div class="flex items-center">
+                                <img src="./img/glacier-sanlam-logo.png" 
+                                     alt="David Wilson" 
+                                     class=" object-cover mr-4 border-2 border-indigo-100">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-4 animate-fade">
+                        <div class="bg-white p-8 rounded-xl shadow-lg h-full border border-gray-100">
+                            
+                            <div class="flex items-center">
+                                <img src="./img//old-mutual.png" 
+                                     alt="David Wilson" 
+                                     class=" object-cover mr-4 border-2 border-indigo-100">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-4 animate-fade">
+                        <div class="bg-white p-8 rounded-xl shadow-lg h-full border border-gray-100">
+                            
+                            <div class="flex items-center">
+                                <img src="./img/sanlam.png" 
+                                     alt="David Wilson" 
+                                     class=" object-cover mr-4 border-2 border-indigo-100">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-4 animate-fade">
+                        <div class="bg-white p-8 rounded-xl shadow-lg h-full border border-gray-100">
+                            
+                            <div class="flex items-center">
+                                <img src="./img/western-cape-transport-logo.png" 
+                                     alt="David Wilson" 
+                                     class=" object-cover mr-4 border-2 border-indigo-100">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                  <div class="py-6 text-center flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <a href="#" class="bg-lime-700 text-white text-base font-medium py-3 px-6 rounded border-2 border-transparent hover:bg-white hover:text-black hover:border-lime-700 transition-all">See More of Our Clients</a>
+                    
+        </div>
+
+            </div>
+        </section>
+    </main>
+    
+    <section id="contact" class="bg-[#26262c]">
+      <h2 class="text-center text-3xl md:text-4xl font-medium mb-4 text-white py-12 md:py-20">Contact Us</h2>
+        <div  class="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-wrap">
+          
+            <div class="w-full lg:w-1/2 mb-10 lg:mb-0 lg:pr-12">
+                <h3 class="text-2xl md:text-3xl font-medium leading-tight text-white">What if your greatest opportunity lies just other side of this moment? Would you take the chance?</h3>
+            </div>
+            <div class="w-full lg:w-1/2 lg:pl-12 lg:border-l border-gray-700">
+                <h4 class="text-xl md:text-2xl font-medium mb-4 text-white">Book a consultation</h4>
+                <form action="#" method="POST">
+                    <div class="mb-4"><input type="text" placeholder="Full Name" class="w-full p-3 bg-gray-50 text-gray-800 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"></div>
+                    <div class="mb-4"><input type="email" placeholder="Email Address" class="w-full p-3 bg-gray-50 text-gray-800 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"></div>
+                    <div class="mb-4"><textarea rows="5" placeholder="Your Message" class="w-full p-3 bg-gray-50 text-gray-800 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea></div>
+                    <div><button type="submit" class="bg-lime-700 text-white text-sm font-medium py-3 px-6 rounded-lg hover:bg-white hover:text-gray-800 transition-colors">Book</button></div>
+                </form>
+            </div>
+        </div>
+        </section>
+        <footer class="bg-[#26262c] py-12 md:py-20">
+        <div class="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pt-10 mt-10 border-t border-gray-700 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+             <div>
+                <a href="#" class="flex items-center justify-center md:justify-start mb-4">
+                    <img src="https://greentreetech.co.za/sitepad-data/uploads/2023/04/logo1.png" alt="GreenTree Technologies Logo" class="h-10 w-auto">
+                    <span class="ml-2 text-xl font-bold">GreenTree Technologies</span>
+                </a>
+                <p class="text-sm">IT and Business Consulting Services For Your Business</p>
+            </div>
+            <div>
+                <h5 class="text-xl font-medium mb-4">Links</h5>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-lime-700">Home</a></li>
+                    <li><a href="#about" class="hover:text-lime-700">About</a></li>
+                    <li><a href="#services" class="hover:text-lime-700">Services</a></li>
+                    <li><a href="#contact" class="hover:text-lime-700">Contact</a></li>
+                    <li><a href="#clients" class="hover:text-lime-700">Clients</a></li>
+                </ul>
+            </div>
+             <div>
+                <h5 class="text-xl font-medium mb-4">Services</h5>
+                <ul class="space-y-2">
+                    <li><a href="#services" class="hover:text-lime-700">Cybersecurity</a></li>
+                    <li><a href="#services" class="hover:text-lime-700">Business Development</a></li>
+                    <li><a href="#services" class="hover:text-lime-700">Project Management</a></li>
+                    <li><a href="#services" class="hover:text-lime-700">Business Analysis</a></li>
+                    <li><a href="#services" class="hover:text-lime-700">Business Process Analysis</a></li>
+                    <li><a href="#services" class="hover:text-lime-700">Business Rescue</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Sticky Navbar Logic
+        const navbar = document.getElementById('navbar');
+        let lastScrollTop = 0;
+        window.addEventListener('scroll', function() {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollTop > 50) {
+                navbar.classList.add('fixed', 'top-0', 'left-0', 'right-0', 'bg-black', 'shadow-md', 'z-50');
+            } else {
+                navbar.classList.remove('fixed', 'top-0', 'left-0', 'right-0', 'bg-black', 'shadow-md', 'z-50');
+            }
+            lastScrollTop = scrollTop;
+            });
+
+                    document.addEventListener('DOMContentLoaded', function() {
+            const track = document.getElementById('testimonial-track');
+            const cards = document.querySelectorAll('.testimonial-card');
+            const prevBtn = document.getElementById('prev');
+            const nextBtn = document.getElementById('next');
+            const dots = document.querySelectorAll('.indicator-dot');
+            
+            let currentIndex = 0;
+            const cardWidth = cards[0].offsetWidth;
+            const visibleCards = window.innerWidth >= 1024 ? 3 : window.innerWidth >= 768 ? 2 : 1;
+            const totalCards = cards.length;
+            let autoSlideInterval;
+
+            // Initialize carousel
+            function updateCarousel() {
+                const offset = -currentIndex * cardWidth;
+                track.style.transform = `translateX(${offset}px)`;
+                
+                // Update active dot
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active-dot', index === currentIndex);
+                });
+                
+                // Animate cards
+                cards.forEach(card => {
+                    card.classList.remove('animate-fade');
+                    void card.offsetWidth; // Trigger reflow
+                    card.classList.add('animate-fade');
+                });
+            }
+
+            // Next slide
+            function nextSlide() {
+                currentIndex = (currentIndex + 1) % (totalCards - visibleCards + 1);
+                updateCarousel();
+            }
+
+            // Previous slide
+            function prevSlide() {
+                currentIndex = (currentIndex - 1 + (totalCards - visibleCards + 1)) % (totalCards - visibleCards + 1);
+                updateCarousel();
+            }
+
+            // Auto slide
+            function startAutoSlide() {
+                autoSlideInterval = setInterval(nextSlide, 5000);
+            }
+
+            // Event listeners
+            nextBtn.addEventListener('click', () => {
+                nextSlide();
+                resetAutoSlide();
+            });
+
+            prevBtn.addEventListener('click', () => {
+                prevSlide();
+                resetAutoSlide();
+            });
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                    resetAutoSlide();
+                });
+            });
+
+            // Reset auto slide timer
+            function resetAutoSlide() {
+                clearInterval(autoSlideInterval);
+                startAutoSlide();
+            }
+
+            // Pause on hover
+            const carousel = document.getElementById('carousel');
+            carousel.addEventListener('mouseenter', () => {
+                clearInterval(autoSlideInterval);
+            });
+
+            carousel.addEventListener('mouseleave', startAutoSlide);
+
+            // Responsive adjustments
+            window.addEventListener('resize', () => {
+                const newVisibleCards = window.innerWidth >= 1024 ? 3 : window.innerWidth >= 768 ? 2 : 1;
+                if (newVisibleCards !== visibleCards) {
+                    currentIndex = 0;
+                    updateCarousel();
+                }
+            });
+
+            // Initialize
+            updateCarousel();
+            startAutoSlide();
+        });
+    </script>
+</body>
+</html>
